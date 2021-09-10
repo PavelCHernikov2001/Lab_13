@@ -9,7 +9,7 @@ public class Abiturient {
 
 	public static void main(String[] args) throws IOException {
 		Scanner input =  new Scanner(System.in);
-		File list = new File ("E://Lab/Abiturient_ANSI.txt");
+		File list = new File ("Abiturient_ANSI.txt");
 		FileReader fr = new FileReader(list);
 		BufferedReader reader = new BufferedReader(fr);
 		String line = reader.readLine();
